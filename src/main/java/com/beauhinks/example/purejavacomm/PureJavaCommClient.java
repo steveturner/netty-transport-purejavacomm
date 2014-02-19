@@ -45,7 +45,7 @@ public final class PureJavaCommClient {
                     });
 
             ChannelFuture f = b.connect(new PureJavaCommDeviceAddress("/dev/ttyS0")).sync();
-            f.channel().write()
+            
             f.channel().closeFuture().sync();
         } finally {
             group.shutdownGracefully();
