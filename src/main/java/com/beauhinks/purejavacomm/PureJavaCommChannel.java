@@ -65,6 +65,7 @@ public class PureJavaCommChannel extends OioByteStreamChannel {
         );
         serialPort.setDTR(config().getOption(DTR));
         serialPort.setRTS(config().getOption(RTS));
+        serialPort.enableReceiveTimeout(config().getOption(READ_TIMEOUT));
 
         activate(serialPort.getInputStream(), serialPort.getOutputStream());
     }
