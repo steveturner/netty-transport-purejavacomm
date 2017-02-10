@@ -1,1 +1,8 @@
 target/
+
+.idea/
+*.class
+*.iml
+
+
+.vagrant/
