@@ -20,7 +20,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.beauhinks</groupId>
     <artifactId>netty-transport-purejavacomm</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
 
     <name>Netty/Transport/purejavacomm</name>
 
